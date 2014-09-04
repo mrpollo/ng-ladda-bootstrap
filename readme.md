@@ -14,7 +14,7 @@ This directive is built from the [ladda-bootstrap](https://github.com/msurguy/la
 //...
 ```
 ```html
-<div ladda-bootstrap ladda-toggle='laddaEnabled' class='btn btn-default ladda-button'>
+<div ng-ladda-bootstrap ladda-toggle='laddaEnabled' class='btn btn-default ladda-button'>
 	Clck here
 </div>
 ```

@@ -16,11 +16,14 @@ global angular, Ladda
   angular.module('ngLaddaBootstrap', []).directive('ngLaddaBootstrap', [
     '$timeout', function($timeout) {
       return {
+        scope: {
+          'laddaToggle': '='
+        },
         link: function($scope, $element, $attrs) {
           return $timeout(function() {
             var ladda;
             ladda = Ladda.create($element[0]);
-            return $scope.$watch($attrs.ngLaddaBootstrap, function(newVal) {
+            return $scope.$watch('laddaToggle', function(newVal) {
               if (newVal) {
                 if (!ladda.isLoading()) {
                   ladda.start();

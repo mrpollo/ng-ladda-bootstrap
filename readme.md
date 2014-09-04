@@ -21,10 +21,4 @@ This directive is built from the [ladda-bootstrap](https://github.com/msurguy/la
 
 ### Contact:
 
-[Ramón Roche](http://ramonroche.com)
-
-email: [mrpollo@gmail.com](mailto:mrpollo@gmail.com)
-
-twitter: [@mrpollo](https://twitter.com/mrpollo)
-
-[original-html]
+Ramón Roche, **email**: [mrpollo@gmail.com](mailto:mrpollo@gmail.com), **twitter**: [@mrpollo](https://twitter.com/mrpollo)
